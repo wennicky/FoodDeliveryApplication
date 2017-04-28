@@ -2,5 +2,5 @@
 
 This is a food delivery application. 
 
-##Design
+## Design
 There are four services: RestaurantSerchService, OrderService, PaymentService, DeliveryService
