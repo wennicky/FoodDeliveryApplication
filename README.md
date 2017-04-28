@@ -17,7 +17,7 @@ Use Http Get request
 Endpoint: "/restaurantinfomation/{restaurantName}"
 
 ## OrderService
-Use Http Post request.
+Use Http Post request    
 Endpoint: "/{restaurantName}/order"    
 Order information is in the Http body.
 
