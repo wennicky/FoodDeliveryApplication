@@ -13,19 +13,19 @@ There are four services:
 Use MySQL in this application
 
 ## RestaurantSearchService
-Use Http Get request.
+Use Http Get request    
 Endpoint: "/restaurantinfomation/{restaurantName}"
 
 ## OrderService
 Use Http Post request.
-Endpoint: "/{restaurantName}/order".
+Endpoint: "/{restaurantName}/order"    
 Order information is in the Http body.
 
 ## PaymentService
-Use Http Post request.
-Endpoint: "/payment".
+Use Http Post request    
+Endpoint: "/payment"    
 Order information and payment information is in the Heep body
 
 ## DeliveryService
-Use Http Get request.
+Use Http Get request    
 Endpoint: "/deliveryinformation/{orderId}" or "/deliveryinformation/{UserName}"
